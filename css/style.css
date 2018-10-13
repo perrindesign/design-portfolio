@@ -1,3 +1,5 @@
+/* ———————————— Text Styles ———————————— */
+
 h1, h2, h3, h4, h5, h6, p {
     color: black;
 }
@@ -18,26 +20,51 @@ h4 {
     margin-bottom: -.5%;
 }
 
-img {
-    max-width: 100%;
-    max-height: 100%;
+a {
+    font-family: 'Maison Neue Mono';
+    font-weight: bold;
 }
 
-.black-background { 
-    background-color: black;
+/* ———————————— Navigation ———————————— */
+
+nav li {
+    display: inline-block;
+    margin-bottom: 0rem;
 }
 
-.black-background *{ 
-    color: white;
+nav ul {
+    margin-bottom: 0rem;
 }
 
-.card-title {
-    margin-top: 5%;
+#bowtie{
+    border-bottom: 4px;
+    padding-bottom: 4px;
+    font-size: 3rem;
+    float: left;
+}
+
+.main-navigation{
+    margin-top: 1rem;
+    float:right;
+}
+
+.main-navigation .page-link{
+    margin-left: 3rem;
 }
 
 .page-link {
     font-weight: bold;
     text-decoration: none;
+    border-bottom: 4px solid #000000;
+    padding-bottom: 4px;
+}
+
+.active {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 68, 255);
+    border-bottom: 4px solid #FFFFFF;
+    padding-bottom: 4px;
 }
 
 .page-link:hover {
@@ -52,4 +79,27 @@ img {
     transition: border-bottom .20s ease-in;
     -moz-transition: border-bottom .20s ease-in;
     -webkit-transition: border-bottom .20s ease-in;
+}
+
+.black-background { 
+    background-color: black;
+}
+
+.black-background *{ 
+    color: white;
+}
+
+/* ———————————— Cards ———————————— */
+
+.card-title {
+    margin-top: 5%;
+}
+
+.card-image {
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
