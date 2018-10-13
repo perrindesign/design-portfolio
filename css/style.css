@@ -1,9 +1,9 @@
 h1, h2, h3, h4, h5, h6, p {
-    color: white;
+    color: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Maison Neue';
+    font-family: 'Maison Neue Mono';
 }
 
 p {
@@ -23,9 +23,12 @@ img {
     max-height: 100%;
 }
 
-
 .black-background { 
     background-color: black;
+}
+
+.black-background *{ 
+    color: white;
 }
 
 .card-title {
@@ -35,7 +38,6 @@ img {
 .page-link {
     font-weight: bold;
     text-decoration: none;
-    color: #FFFFFF;
 }
 
 .page-link:hover {
