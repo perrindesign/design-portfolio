@@ -22,15 +22,9 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="font/fonts.css">
+  <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel='stylesheet' href='https://unpkg.com/emoji.css/dist/emoji.min.css'>
-
-
-  <!-- Javascript
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
-  <script src="js/script.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -41,7 +35,7 @@
 
   <!-- Navigation
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container" id="container">
+  <div class="container">
     <header class="row" style="margin-top: 10%">
       <a href="" class="page-link" id="bowtie">⋈</a>
       <nav class="main-navigation">
@@ -56,7 +50,7 @@
   <!-- Header
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="core-content">
-      <div class="row" style="margin-top: 8%">
+      <div class="row" style="margin-top: 8%"  data-aos="fade-up">
           <h4>Perrin Anto.</h4>
           <h4>Interaction Designer.</h4>
       </div>
@@ -64,82 +58,102 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-      <div class="row" style="margin-top: 8%">
+      <div class="row" style="margin-top: 8%"  data-aos="fade-up">
           <h1><strong>Forging products and experiences that positively impact people.</strong></h1>
       </div>
 
-      <div class="row" style="margin-top: 10%">
-          <div class="text-header">SELECTED WORK</div>
-          <hr>
-      </div>
 
-      <div class="row" style="margin-top: 5%">
-          <div class="one-half column">
-            <img src="images/UberElevate.jpg" class="card-image" alt="UberElevate aircraft mockup">
-            <h4 class="card-title">Multi-Modal Research</h4>
-            <p class="card-caption">Understanding door-to-door user experiences to inform the future</p>
-          </div>
+      <div data-aos="fade-up">
+        <div class="row" style="margin-top: 10%">
+            <div class="text-header">SELECTED WORK</div>
+            <hr>
+        </div>
 
-          <div class="one-half column">
-            <img src="images/OzCHI_App_UI.jpg" class="card-image" alt="Phone interface previews">
-            <h4 class="card-title">DigiView</h4>
-            <p class="card-caption">Reimagining exploration at libraries for the digital age</p>
-          </div>
-      </div>
-
-      <div class="row" style="margin-top: 5%">
-          <div class="one-half column">
-            <img src="images/MyFarmer.jpeg" class="card-image" alt="A dashboard with posts from farmers">
-            <h4 class="card-title">MyFarmer</h4>
-            <p class="card-caption">Innovatively connecting people back to their food source</p>
-          </div>
-
-          <div class="one-half column">
-            <img src="images/Greenpeace.png" class="card-image" alt="A branded folder and lanyard">
-            <h4 class="card-title">Greenpeace Australia</h4>
-            <p class="card-caption">Creating a new onboarding experience for volunteers</p>
-          </div>
-      </div>
-
-      <div class="row" style="margin-top: 10%">
-          <div class="text-header">EXPLORATIONS & SIDE PROJECTS</div>
-          <hr>
-      </div>
-
-      <div class="row" style="margin-top: 5%">
-          <div class="one-third column">
-            <img src="images/Fractal.png" class="card-image" alt="A dashboard with posts from farmers">
-            <h4 class="card-title">Creative Coding</h4>
-            <p class="card-caption">Ways I'm using my computer science degree</p>
-          </div>
-
-          <div class="one-third column">
-            <img src="images/Binaural.png" class="card-image" alt="A branded folder and lanyard">
-            <h4 class="card-title">Sound Designing</h4>
-            <p class="card-caption">Creating the full audiovisual experience</p>
-          </div>
-
-          <div class="one-third column">
-              <img src="images/Checkout.jpg" class="card-image" alt="A branded folder and lanyard">
-              <h4 class="card-title">Daily UI Challenge</h4>
-              <p class="card-caption">Building interfaces for 100 days</p>
+        <div class="row" style="margin-top: 5%">
+            <div class="one-half column">
+              <img src="images/UberElevate.jpg" class="card-image" alt="UberElevate aircraft mockup">
+              <h4 class="card-title">Multi-Modal Research</h4>
+              <p class="card-caption">Understanding door-to-door user experiences to inform the future</p>
             </div>
+
+            <div class="one-half column">
+              <img src="images/OzCHI_App_UI.jpg" class="card-image" alt="Phone interface previews">
+              <h4 class="card-title">DigiView</h4>
+              <p class="card-caption">Reimagining exploration at libraries for the digital age</p>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 5%">
+            <div class="one-half column">
+              <img src="images/MyFarmer.jpeg" class="card-image" alt="A dashboard with posts from farmers">
+              <h4 class="card-title">MyFarmer</h4>
+              <p class="card-caption">Innovatively connecting people back to their food source</p>
+            </div>
+
+            <div class="one-half column">
+              <img src="images/Greenpeace.png" class="card-image" alt="A branded folder and lanyard">
+              <h4 class="card-title">Greenpeace Australia</h4>
+              <p class="card-caption">Creating a new onboarding experience for volunteers</p>
+            </div>
+        </div>
       </div>
 
-      <div class="row" style="margin-top: 10%">
-          <div class="text-header">GET IN TOUCH</div>
-          <hr>
+
+      <div data-aos="fade-up">
+        <div class="row" style="margin-top: 10%">
+            <div class="text-header">EXPLORATIONS & SIDE PROJECTS</div>
+            <hr>
+        </div>
+
+        <div class="row" style="margin-top: 5%">
+            <div class="one-third column">
+              <img src="images/Fractal.png" class="card-image" alt="A dashboard with posts from farmers">
+              <h4 class="card-title">Creative Coding</h4>
+              <p class="card-caption">Ways I'm using my computer science degree</p>
+            </div>
+
+            <div class="one-third column">
+              <img src="images/Binaural.png" class="card-image" alt="A branded folder and lanyard">
+              <h4 class="card-title">Sound Designing</h4>
+              <p class="card-caption">Creating the full audiovisual experience</p>
+            </div>
+
+            <div class="one-third column">
+                <img src="images/Checkout.jpg" class="card-image" alt="A branded folder and lanyard">
+                <h4 class="card-title">Daily UI Challenge</h4>
+                <p class="card-caption">Building interfaces for 100 days</p>
+              </div>
+        </div>
       </div>
 
-      <div class="row footer" style="margin-bottom: 5%; margin-top: 1%">
-        <div class="social-footer">Email. Linkedin. Dribbble. Twitter. Medium.</div>
-        <div class="text-footer">Coded and Designed by Perrin Anto. Powered by <span class="emoji ec ec-blue-heart"></span> and <span class="emoji ec ec-coffee"></span>.</div>
+      
+      <div data-aos="fade-up">
+        <div class="row" style="margin-top: 10%">
+            <div class="text-header">GET IN TOUCH</div>
+            <hr>
+        </div>
+
+        <div class="row footer" style="margin-bottom: 5%; margin-top: 1%">
+          <div class="social-footer">
+            <a href="mailto:perrindesign@outlook.com">Email.</a>
+            <a href="https://www.linkedin.com/in/perrindesign">Linkedin.</a> 
+            <a href="https://dribbble.com/perrindesign">Dribbble.</a>
+            <a href="https://twitter.com/perrindesign">Twitter.</a>
+            <a href="https://medium.com/@perrindesign">Medium.</a>
+          </div>
+          <div class="text-footer">Coded and Designed by Perrin Anto. Powered by <span class="emoji ec ec-blue-heart"></span> and <span class="emoji ec ec-coffee"></span>.</div>
+        </div>
       </div>
+
     </div>
   </div>
-  <script>
-    document.getElementById("container").style.display = "none";
-  </script>
+  <!-- Javascript
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+  <script src="js/nanobar.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/script.js"></script>
 
 <!-- End Document
 
