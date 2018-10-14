@@ -57,8 +57,8 @@ hr {
 .about-me-text {
     font-family: 'Roboto Mono';
     font-size: 2rem;
-    line-height: 3.5rem;
-    margin-bottom: 2%;
+    line-height: 5rem;
+    margin-bottom: 10%;
 }
 /* ———————————— Navigation ———————————— */
 
@@ -153,3 +153,49 @@ img {
     background: white;
     height: 5px;
 }
+
+  
+  .w100 {
+    font-weight: 100;
+    font-family: 'Roboto Mono';
+  }
+  
+  .w200 {
+    font-weight: 200;
+    font-family: 'Roboto Mono';
+  }
+  
+  .w300 {
+    font-weight: 300;
+    font-family: 'Roboto Mono';
+  }
+  
+  .w400 {
+    font-weight: 400;
+    font-family: 'Roboto Mono';
+  }
+  
+  .w500 {
+    font-weight: 500;
+    font-family: 'Roboto Mono';
+  }
+  
+  .w600 {
+    font-weight: 600;
+    font-family: 'Roboto Mono';
+  }
+  
+  .w700 {
+    font-weight: 700;
+    font-family: 'Roboto Mono';
+  }
+  
+  .w800 {
+    font-weight: 800;
+    font-family: 'Roboto Mono';
+  }
+  
+  .w900 {
+    font-weight: 900;
+    font-family: 'Roboto Mono';
+  }
