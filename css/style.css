@@ -36,6 +36,26 @@ a {
     text-align: left;
 }
 
+.stacked-header {
+    margin-bottom: 20%;
+}
+
+.content-header {
+    margin-top: 2.5rem;
+}
+
+.content-text {
+    margin-top: .5rem;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.section-header {
+    margin-top: 5rem;
+    color: blue;
+    font-weight: 600;
+}
+
 .black-background hr {
     margin-top: .5rem;
     margin-bottom: .5rem;
@@ -54,12 +74,29 @@ a {
 
 .text-footer {
     margin-top: 10%;
-    color: rgb(197, 197, 197);
     font-size: 1.2rem;
 }
 
-.social-footer a:hover {
+.black-background .text-footer {
+    color: rgb(197, 197, 197);
+}
+
+.white-background .text-footer {
+    color: black;
+}
+
+
+
+.black-background .social-footer a:hover {
     color: #FFFFFF;
+}
+
+.white-background .social-footer a {
+    color: black;
+}
+
+.white-background .social-footer a:hover {
+    color: black;
 }
 
 .emoji {
@@ -130,6 +167,7 @@ a {
 }
 
 .white-background .page-link {
+    color: black;
     font-weight: normal;
     text-decoration: none;
     border-bottom: 4px solid white;
@@ -163,7 +201,7 @@ a {
     background-color: white;
 }
 
-.white-background * {
+.white-background {
     color: black;
 }
 
