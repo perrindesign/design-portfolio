@@ -37,7 +37,12 @@ a {
     text-align: left;
 }
 
-hr {
+.black-background hr {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.white-background hr {
     margin-top: .5rem;
     margin-bottom: .5rem;
 }
@@ -95,20 +100,22 @@ nav ul {
     margin-left: 3rem;
 }
 
-.page-link {
+/* ———————————— Links ———————————— */
+
+.black-background .page-link {
     font-weight: normal;
     text-decoration: none;
     border-bottom: 4px solid #000000;
     padding-bottom: 4px;
 }
 
-.active {
-    color: rgb(0, 68, 255);
-    border-bottom: 4px solid #FFFFFF;
+.black-background .active {
+    color: white;
+    border-bottom: 4px solid white;
     padding-bottom: 4px;
 }
 
-.page-link:hover {
+.black-background .page-link:hover {
     text-decoration: none;
     color: #FFFFFF;
     border-bottom: 4px solid #FFFFFF;
@@ -122,12 +129,43 @@ nav ul {
     -webkit-transition: border-bottom .20s ease-in;
 }
 
+.white-background .page-link {
+    font-weight: normal;
+    text-decoration: none;
+    border-bottom: 4px solid white;
+    padding-bottom: 4px;
+}
+
+.white-background .page-link:hover {
+    text-decoration: none;
+    color: black;
+    border-bottom: 4px solid black;
+    padding-bottom: 4px;
+
+    transition: color .20s ease-in;
+    -moz-transition: color .20s ease-in;
+    -webkit-transition: color .20s ease-in;
+    transition: border-bottom .20s ease-in;
+    -moz-transition: border-bottom .20s ease-in;
+    -webkit-transition: border-bottom .20s ease-in;
+}
+
+/* ———————————— Background ———————————— */
+
 .black-background { 
     background-color: black;
 }
 
 .black-background *{ 
     color: white;
+}
+
+.white-background { 
+    background-color: white;
+}
+
+.white-background *{ 
+    color: black;
 }
 
 /* ———————————— Cards ———————————— */
@@ -168,7 +206,12 @@ img {
     max-height: 100%;
 }
 
-.nanobar .bar {
+.black-background .nanobar .bar {
     background: white;
+    height: 5px;
+}
+
+.white-background .nanobar .bar {
+    background: black;
     height: 5px;
 }
