@@ -18,7 +18,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Perrin Anto. Portfolio.</title>
+  <title>Perrin Anto. Process Journal.</title>
   <meta name="description" content="">
   <meta name="author" content="Perrin Anto.">
 
@@ -36,6 +36,7 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/verticalnav.css">
   <link rel='stylesheet' href='https://unpkg.com/emoji.css/dist/emoji.min.css'>
 
   <!-- Favicon
@@ -44,7 +45,7 @@
 
 </head>
 
-<body class="black-background">
+<body class="white-background">
 
   <!-- Navigation
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -54,7 +55,7 @@
       <nav id="main-navigation">
         <ul>
           <li>
-            <a href="index.html" class="page-link active">Work</a>
+            <a href="index.html" class="page-link">Work</a>
           </li>
           <li>
             <a href="about.html" class="page-link">About</a>
@@ -66,92 +67,121 @@
       </nav>
     </header>
 
+    <nav id="cd-vertical-nav">
+      <ul>
+        <li>
+          <a href="#section1" data-number="1">
+            <span class="cd-dot"></span>
+            <span class="cd-label">Overview</span>
+          </a>
+        </li>
+        <li>
+          <a href="#section2" data-number="2">
+            <span class="cd-dot"></span>
+            <span class="cd-label">Discover</span>
+          </a>
+        </li>
+        <li>
+          <a href="#section3" data-number="3">
+            <span class="cd-dot"></span>
+            <span class="cd-label">Design</span>
+          </a>
+        </li>
+        <li>
+          <a href="#section4" data-number="4">
+            <span class="cd-dot"></span>
+            <span class="cd-label">Deliver</span>
+          </a>
+        </li>
+        <li>
+          <a href="#section5" data-number="5">
+            <span class="cd-dot"></span>
+            <span class="cd-label">Takeaways</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <a class="cd-nav-trigger cd-img-replace">Open navigation
+      <span></span>
+    </a>
+
     <!-- Header
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="core-content">
-      <div class="row" style="margin-top: 8%" data-aos="fade-up" data-aos-delay="250">
-        <h4>Perrin Anto.</h4>
-        <h4>Product + UX Designer.</h4>
+      <div class="row" style="margin-top: 5%" data-aos="fade-up" data-aos-delay="250">
+        <img src="images/Process/Process_Banner.png">
       </div>
 
-      <!-- Hero
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-      <div class="row" style="margin-top: 8%" data-aos="fade-up" data-aos-delay="250">
-        <h1>
-          <strong>Forging products and experiences that positively impact people.</strong>
-        </h1>
-      </div>
-
-      <!-- Selected Work
+      <!-- Process Journal Overview
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
       <div data-aos="fade-up" data-aos-delay="500" data-aos-anchor=".core-content">
-        <div class="row" style="margin-top: 10%">
-          <div class="text-header">SELECTED WORK</div>
+        <section id="section1" class="cd-section"></section>
+        <div class="row" style="padding-top: 10%">
+          <div class="text-header">OVERVIEW</div>
           <hr>
         </div>
+        </section>
 
-        <div class="row" style="margin-top: 5%">
-          <div class="one-half column">
-            <a href="aira.html">
-              <img src="images/UberElevate.jpg" class="card-image" alt="UberElevate aircraft mockup">
-            </a>
-            <h4 class="card-title">Multi-Modal Research</h4>
-            <p class="card-caption">Understanding door-to-door user experiences to inform the future</p>
-          </div>
 
-          <div class="one-half column">
-            <img src="images/OzCHI_App_UI.jpg" class="card-image" alt="Phone interface previews">
-            <h4 class="card-title">DigiView</h4>
-            <p class="card-caption">Reimagining exploration at libraries for the digital age</p>
-          </div>
-        </div>
-
-        <div class="row" style="margin-top: 5%">
-          <div class="one-half column">
-            <img src="images/MyFarmer.jpeg" class="card-image" alt="A dashboard with posts from farmers">
-            <h4 class="card-title">MyFarmer</h4>
-            <p class="card-caption">Innovatively connecting people back to their food source</p>
-          </div>
-
-          <div class="one-half column">
-            <img src="images/Greenpeace.png" class="card-image" alt="A branded folder and lanyard">
-            <h4 class="card-title">Greenpeace Australia</h4>
-            <p class="card-caption">Creating a new onboarding experience for volunteers</p>
-          </div>
-        </div>
       </div>
 
-      <!-- Explorations & Side Projects
+      <!-- Discover
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
       <div data-aos="fade-up">
-        <div class="row" style="margin-top: 10%">
-          <div class="text-header">EXPLORATIONS & SIDE PROJECTS</div>
+        <section id="section2" class="cd-section"></section>
+        <div class="row" style="padding-top: 10%">
+          <div class="text-header">DISCOVER</div>
           <hr>
         </div>
+        </section>
 
-        <div class="row" style="margin-top: 5%">
-          <div class="one-third column">
-            <img src="images/Fractal.png" class="card-image" alt="Fractal tree built with processing.js">
-            <h4 class="card-title">Creative Coding</h4>
-            <p class="card-caption">Ways I'm using my computer science degree</p>
-          </div>
 
-          <div class="one-third column">
-            <img src="images/Binaural.png" class="card-image" alt="A branded folder and lanyard">
-            <h4 class="card-title">Sound Designing</h4>
-            <p class="card-caption">Creating the full audiovisual experience</p>
-          </div>
-
-          <div class="one-third column">
-            <img src="images/Checkout.jpg" class="card-image" alt="A branded folder and lanyard">
-            <h4 class="card-title">Daily UI Challenge</h4>
-            <p class="card-caption">Building interfaces for 100 days</p>
-          </div>
-        </div>
       </div>
+
+      <!-- Design
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+      <div data-aos="fade-up">
+        <section id="section3" class="cd-section"></section>
+        <div class="row" style="padding-top: 10%">
+          <div class="text-header">DESIGN</div>
+          <hr>
+        </div>
+        </section>
+
+
+      </div>
+
+      <!-- Deliver
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+      <div data-aos="fade-up">
+        <section id="section4" class="cd-section"></section>
+        <div class="row" style="padding-top: 10%">
+          <div class="text-header">DELIVER</div>
+          <hr>
+        </div>
+        </section>
+
+
+      </div>
+
+      <!-- Takeaways
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+      <div data-aos="fade-up">
+        <section id="section5" class="cd-section"></section>
+        <div class="row" style="padding-top: 10%">
+          <div class="text-header">TAKEAWAYS</div>
+          <hr>
+        </div>
+        </section>
+
+
+      </div>
+
 
       <!-- Get In Touch
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

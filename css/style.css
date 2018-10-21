@@ -2,8 +2,7 @@ html, body, h1, h2, h3, h4, h5, h6, div {
     padding: 0;
     border: 0;
     margin: 0;
-  }
-
+}
 
 /* ———————————— Text Styles ———————————— */
 
@@ -45,11 +44,12 @@ a {
 .white-background hr {
     margin-top: .5rem;
     margin-bottom: .5rem;
+    border-top-color: black;
 }
 
 .footer {
     font-family: 'Roboto Mono';
-    text-align: left;  
+    text-align: left;
 }
 
 .text-footer {
@@ -58,7 +58,7 @@ a {
     font-size: 1.2rem;
 }
 
-.social-footer a:hover{
+.social-footer a:hover {
     color: #FFFFFF;
 }
 
@@ -73,30 +73,31 @@ a {
     font-weight: 100;
     margin-bottom: 10%;
 }
+
 /* ———————————— Navigation ———————————— */
 
-nav li {
+#main-navigation li {
     display: inline-block;
     margin-bottom: 0rem;
 }
 
-nav ul {
+#main-navigation ul {
     margin-bottom: 0rem;
 }
 
-#bowtie{
+#bowtie {
     border-bottom: 4px;
     padding-bottom: 4px;
     font-size: 3rem;
     float: left;
 }
 
-.main-navigation{
+#main-navigation {
     margin-top: 1rem;
-    float:right;
+    float: right;
 }
 
-.main-navigation .page-link{
+#main-navigation .page-link {
     margin-left: 3rem;
 }
 
@@ -120,7 +121,6 @@ nav ul {
     color: #FFFFFF;
     border-bottom: 4px solid #FFFFFF;
     padding-bottom: 4px;
-
     transition: color .20s ease-in;
     -moz-transition: color .20s ease-in;
     -webkit-transition: color .20s ease-in;
@@ -141,7 +141,6 @@ nav ul {
     color: black;
     border-bottom: 4px solid black;
     padding-bottom: 4px;
-
     transition: color .20s ease-in;
     -moz-transition: color .20s ease-in;
     -webkit-transition: color .20s ease-in;
@@ -152,19 +151,19 @@ nav ul {
 
 /* ———————————— Background ———————————— */
 
-.black-background { 
+.black-background {
     background-color: black;
 }
 
-.black-background *{ 
+.black-background * {
     color: white;
 }
 
-.white-background { 
+.white-background {
     background-color: white;
 }
 
-.white-background *{ 
+.white-background * {
     color: black;
 }
 
@@ -176,7 +175,6 @@ nav ul {
 
 .card-caption {
     margin-top: 2%;
-
 }
 
 .card-image {
@@ -190,14 +188,14 @@ nav ul {
     transform: scale(1.05);
 }
 
-.playlist{
+.playlist {
     width: 100%;
-    height: 100%;  
+    height: 100%;
     transition: all 0.4s ease;
     margin-bottom: 5%;
 }
 
-.playlist:hover{
+.playlist:hover {
     transform: scale(1.05);
 }
 
