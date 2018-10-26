@@ -1,0 +1,54 @@
+#aira {
+    border-bottom: 4px;
+    padding-bottom: 4px;
+    font-size: 2rem;
+    font-weight: bold;
+    float: left;
+}
+
+.hero-text {
+    font-family: 'Roboto';
+    font-size: 6em;
+    text-align: center;
+}
+
+.hero-image {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    margin-bottom: 10%
+}
+
+.companion-text-header {
+    font-family: 'Roboto';
+    color: #5872FF;
+    font-weight: bold;
+}
+
+.middle-section {
+    margin-top: 30%;
+}
+
+.frame {
+    -ms-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25);
+}
+
+.prototype-link {
+    font-family: 'Roboto Mono';
+    margin-top: 2%;
+    color: #5872FF;
+}
+
+.prototype-link:hover {
+    color: black;
+}
+
+.framer-prototype-link {
+    font-family: 'Roboto Mono';
+    margin-top: 2%;
+    color: #5872FF;
+}
