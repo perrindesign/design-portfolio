@@ -7,7 +7,7 @@
 }
 
 .hero-text {
-    font-family: 'Roboto';
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 6em;
     text-align: center;
 }
@@ -20,7 +20,7 @@
 }
 
 .companion-text-header {
-    font-family: 'Roboto';
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     color: #5872FF;
     font-weight: bold;
 }
